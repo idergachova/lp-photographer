@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;    
+    background-image: url(img/back.png);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: 1440px 828px; 
+}
+
+.nav {
+    padding: 40px 130px 0 130px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo{
+    align-items: flex-start;
+    width: 151px;
+    height: 32px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-left: 206px;
+    margin-right: 207px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #F5F5F5;
+}
+
+.social {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.img-round{
+    position: relative;
+    width: 95px;
+    height: 56px;
+    margin-left: 736px;
+    margin-top: 338px;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 515px;
+    max-height: 331px;
+    margin-left: 795px;
+    margin-bottom: 56px;
+    position: relative;
+    top: -31px;
+}
+
+
+    @font-face {
+        font-family: Circe;
+        src: url(fonts/CRC25.otf);
+        font-style: normal;
+        font-weight: light;
+    }
+    h1{
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 142px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #F5F5F5;
+}
+
+p{
+    width: 505px;
+    height: 92px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 142.19%;
+    letter-spacing: 0.05em;
+    color: #F5F5F5;
+}
+
+.button {
+    width: 153px;
+    height: 41px;
+    margin-top: 24px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid #F5F5F5;
+    backdrop-filter: blur(22.5px);
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #F5F5F5;
+}
+
+.line{
+    width: 505px;
+    margin-top: 40px;
+}
+
+
+
