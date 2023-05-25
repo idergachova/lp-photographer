@@ -82,13 +82,14 @@ a{
 }
 
 
-    @font-face {
-        font-family: Circe;
-        src: url(fonts/CRC25.otf);
-        font-style: normal;
-        font-weight: light;
-    }
-    h1{
+@font-face {
+    font-family: Circe;
+    src: url(fonts/CRC25.otf);
+    font-style: normal;
+    font-weight: light;
+}
+
+h1{
     font-family: 'Circe';
     font-style: normal;
     font-weight: 300;
